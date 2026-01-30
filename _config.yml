@@ -1,6 +1,6 @@
 # ThreadTrace - EU Digital Product Passports for Fashion & Textiles
 title: ThreadTrace
-tagline: Digital Product Passports for Fashion. Secured in Europe.
+tagline: Digital Product Passports for Textiles &amp; Fashion. Secured in Europe.
 description: >-
   100% EU infrastructure for textile and fashion Digital Product Passports.
   GDPR compliant, ESPR ready, data sovereignty guaranteed.
@@ -10,11 +10,11 @@ url: "https://threadtrace.eu"
 
 # Company Information
 company:
-  name: ThreadTrace B.V.
+  name: ThreadTrace
   location: Florence, Italy
   email: info@threadtrace.eu
   data_centers:
-    - Firenze, Italia
+    - Milan, Italy
     - Frankfurt, Germany
     - Dublin, Ireland
     - Amsterdam, Netherlands
