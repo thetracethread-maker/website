@@ -11,9 +11,10 @@ url: "https://threadtrace.eu"
 # Company Information
 company:
   name: ThreadTrace B.V.
-  location: Eindhoven, Netherlands
+  location: Florence, Italy
   email: info@threadtrace.eu
   data_centers:
+    - Firenze, Italia
     - Frankfurt, Germany
     - Dublin, Ireland
     - Amsterdam, Netherlands
