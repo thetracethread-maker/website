@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ThreadTrace
-description: Digital Product Passports for Fashion & Textiles. 100% EU Infrastructure, GDPR Compliant, ESPR Ready.
+description: Digital Product Passports for Fashion & Textiles. EU-hosted infrastructure designed to support GDPR compliance and ESPR requirements.
 ---
 
 <!-- Hero Section -->
