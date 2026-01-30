@@ -1,3 +1,50 @@
-title: Thread Tracer
-description: DPP software created in and for the EU, 100% GDPR Compliant. 
+# ThreadTrace - EU Digital Product Passports for Fashion & Textiles
+title: ThreadTrace
+tagline: Digital Product Passports for Fashion. Secured in Europe.
+description: >-
+  100% EU infrastructure for textile and fashion Digital Product Passports.
+  GDPR compliant, ESPR ready, data sovereignty guaranteed.
+
+baseurl: ""
+url: "https://threadtrace.eu"
+
+# Company Information
+company:
+  name: ThreadTrace B.V.
+  location: Eindhoven, Netherlands
+  email: info@threadtrace.eu
+  data_centers:
+    - Frankfurt, Germany
+    - Dublin, Ireland
+    - Amsterdam, Netherlands
+
+# Build settings
+markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  industries:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: en
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

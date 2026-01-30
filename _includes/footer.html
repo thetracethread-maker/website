@@ -1,0 +1,49 @@
+<footer>
+    <div class="footer-content">
+        <div>
+            <div class="footer-brand">🇪🇺 {{ site.company.name }}</div>
+            <p class="footer-description">
+                European-owned, EU-operated Digital Product Passport solutions for fashion and textiles. 
+                Ensuring complete data sovereignty and regulatory compliance for the textile industry.
+            </p>
+            <p class="footer-description" style="margin-top: 1rem;">
+                <strong>Headquarters:</strong> {{ site.company.location }}<br>
+                <strong>Data Centers:</strong> {% for dc in site.company.data_centers %}{{ dc }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+            </p>
+        </div>
+        <div class="footer-section">
+            <h4>Solutions</h4>
+            <ul>
+                <li><a href="#solution">Fashion & Textiles DPP</a></li>
+                <li><a href="#features">Fiber Traceability</a></li>
+                <li><a href="#compliance">ESPR Compliance</a></li>
+                <li><a href="#timeline">Implementation Roadmap</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+                <li><a href="#">ESPR Textile Guide</a></li>
+                <li><a href="#">GDPR White Paper</a></li>
+                <li><a href="#">API Documentation</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Regulatory Updates</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#compliance">EU Data Sovereignty</a></li>
+                <li><a href="#">Security & Privacy</a></li>
+                <li><a href="#">Partnerships</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.company.name }} | Registered in Netherlands | All rights reserved.<br>
+        100% EU-owned and operated. Data processing exclusively within EEA jurisdiction.<br>
+        Compliant with GDPR (EU 2016/679), ESPR (EU 2024/1781), EU Strategy for Sustainable and Circular Textiles</p>
+    </div>
+</footer>
